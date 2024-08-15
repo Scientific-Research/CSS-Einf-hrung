@@ -7,14 +7,14 @@
     <style>
       body {
         background-color: darkgray;
-        font-family: "Comic Sans MS", Arial, sans-serif;
+        /* font-family: "Comic Sans MS", Arial, sans-serif; */
         /* all the classes and Ids as Children take this font-family from Body as Parent, otherwise, we overwrite this font-family in one of the classes or Ids! */
       }
 
       .important {
         color: red;
-        font-family: sans-serif;
         font-family: monospace;
+        font-family: sans-serif;
         font-weight: 100;
         font-style: italic;
         font-size: 16px;
@@ -34,11 +34,17 @@
       .sans-serif {
         text-align: center;
       }
+
+      em {
+        font-style: normal;
+        color: dodgerblue;
+      }
     </style>
   </head>
   <body>
     <h1 class="large-font">Ich bin eine Überschrift...</h1>
     <h1 class="sans-serif">Ich bin eine Überschrift...</h1>
+    <p><em>Ich bin</em> ein Absatz.</p>
     <p class="important">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, iste
       suscipit? Illum quos ipsa eligendi excepturi laudantium architecto
