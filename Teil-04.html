@@ -7,24 +7,50 @@
     <style>
       body {
         background-color: darkgray;
+        font-family: "Comic Sans MS", Arial, sans-serif;
+        /* all the classes and Ids as Children take this font-family from Body as Parent, otherwise, we overwrite this font-family in one of the classes or Ids! */
       }
 
       .important {
         color: red;
+        font-family: sans-serif;
+        font-family: monospace;
+        font-weight: 100;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 1.6; /*1.3 bis 1.7*/
+        white-space: nowrap; /* default => wrap => zeilumbruch erlauben! */
+        white-space: wrap;
+        text-align: justify;
       }
 
-      p.large-font {
+      /* p.large-font { */
+      h1.large-font {
         /* color: green; */
         font-size: 50px;
+        text-align: center;
+      }
+
+      .sans-serif {
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <h1 class="large-font">Ich bin eine Überschrift...</h1>
-    <p class="important large-font">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-      exercitationem laboriosam vero! Nemo numquam aperiam delectus, reiciendis
-      iure eum explicabo.
+    <h1 class="sans-serif">Ich bin eine Überschrift...</h1>
+    <p class="important">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, iste
+      suscipit? Illum quos ipsa eligendi excepturi laudantium architecto
+      repellendus culpa reprehenderit blanditiis. Voluptatibus iusto tempore
+      amet laudantium, nisi possimus nemo. Exercitationem aut culpa, ab itaque
+      ducimus atque in perferendis unde sed totam placeat laborum neque
+      adipisci, inventore natus laboriosam non facere quas temporibus. Soluta
+      hic, quidem tenetur voluptatem autem debitis sed voluptatibus aperiam
+      saepe itaque, minima, ad architecto cumque nesciunt eum laboriosam quos
+      excepturi accusantium! Tempora quaerat obcaecati nemo porro voluptatem
+      culpa cum qui iusto voluptatum, eum aut eaque! Aut et iusto officia eius a
+      ratione quidem iste nostrum incidunt!
     </p>
   </body>
 </html>
