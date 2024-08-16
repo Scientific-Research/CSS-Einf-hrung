@@ -11,6 +11,13 @@
           sans-serif;
       }
 
+      /* to expand the height of the container to cover the last picture in the container too!*/
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+
       .container {
         background-color: rgb(2, 128, 0);
         border: 2px solid rgb(190, 246, 38);
@@ -23,7 +30,7 @@
 
         /* We need the following two factors to center the container */
         /* width: 800px; */
-        height: 100vh;
+        /* height: 100vh; */
         margin: 0 auto;
       }
 
@@ -63,6 +70,10 @@
 
         float: left;
       }
+
+      /* .second-photo {
+        float: none;
+      } */
 
       span {
         color: greenyellow;
@@ -123,7 +134,7 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container clearfix">
       <h1 class="heading">Überschrift</h1>
       <!-- lkdsjfgsldfjgklsd -->
       <img src="/images/früchtuck-Iranisch.jpg" alt="" />
@@ -144,7 +155,22 @@
         eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
         repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
         corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
-        elit. Modi atque possimus doloribus dignissimos
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
         <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
         eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
         repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
@@ -154,6 +180,8 @@
         repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
         corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
       </p>
+      <img class="second-photo" src="/images/früchtuck-Iranisch.jpg" alt="" />
+
       <a class="button" href="#">Ich bin ein Button</a>
       <button class="enterB">Enter</button>
     </div>
