@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Einführung CSS Teil-02</title>
+    <style>
+      body {
+        background-color: rgb(128, 128, 128);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      /* to expand the height of the container to cover the last picture in the container too!*/
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+
+      .container {
+        background-color: rgb(2, 128, 0);
+        border: 2px solid rgb(190, 246, 38);
+        border-radius: 10px;
+        padding: 10px;
+        /* margin: 50px; */
+        /* Oben, rechts, unten, links */
+        /* margin: 25px 50px 50px 25px; */
+        /* margin: 25px 50px; */
+
+        /* We need the following two factors to center the container */
+        /* width: 800px; */
+        /* height: 100vh; */
+        margin: 0 auto;
+      }
+
+      .description {
+        line-height: 1.6;
+        /* background-color: rgba(255, 255, 255, 0.137);
+        width: 500px;
+        height: 50px;
+        overflow: auto; */
+        /* margin: 0; */
+        /* padding: 0; */
+        /* float: left; */
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+      }
+
+      .test {
+        /* display: block; */
+        /* width: 500px;
+        height: 500px; */
+
+        display: inline-block;
+        padding: 20px;
+        border: 2px solid gray;
+        background-color: rgb(220, 220, 220);
+        margin: 20px;
+      }
+
+      img {
+        display: block;
+        width: 200px;
+        width: 200px;
+        border-radius: 10px;
+        /* margin-bottom: 10px; */
+        margin-right: 20px;
+
+        float: left;
+      }
+
+      /* .second-photo {
+        float: none;
+      } */
+
+      span {
+        color: greenyellow;
+      }
+
+      .heading {
+        /* display: inline; */
+        border-top: 4px dotted dodgerblue;
+        border-bottom: 10px dashed yellow;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+      }
+
+      .button {
+        margin-top: 10px;
+        background-color: rgb(95, 147, 99);
+        text-decoration: none;
+        color: #fff;
+
+        border-radius: 20px;
+        /*50% of the height - OR the following trick => using a big number!*/
+        /* border-radius: 10000px; */
+
+        /* padding: 5px; */
+        width: 200px;
+        height: 40px;
+        display: inline-block;
+        text-align: center; /*to bring the text in middle top*/
+        /* padding-top: 20px; to bring the text exactly in the middle*/
+
+        /* line-height: 2.5; durch Versuch und Irrtum - This is correct!*/
+        line-height: 40px; /*This is correct too!*/
+        /*to bring the text exactly in the middle*/
+
+        /* margin: auto 0; */
+        /* padding: auto 0; */
+        /* transform: translateY(20px); */
+      }
+
+      .button:hover {
+        background-color: red;
+      }
+
+      .enterB {
+        border-radius: 10px;
+        border: none;
+        padding: 5px 15px;
+        background-color: aqua;
+        color: rgb(135, 24, 24);
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .enterB:hover {
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <h1 class="heading">Überschrift</h1>
+      <!-- lkdsjfgsldfjgklsd -->
+      <a href="https://mk-omnifood-healthy-food.chat24hr.com/" target="_blank"
+        ><img
+          src="/images/früchtuck-Iranisch.jpg"
+          alt="ein website über healthy food"
+      /></a>
+      <p class="description">
+        Lorem ipsum <a href="#">dolor sit</a> amet consectetur, adipisicing
+        elit. Modi atque possimus doloribus dignissimos
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        elit. Modi atque possimus doloribus dignissimos
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        elit. Modi atque possimus doloribus dignissimos
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+        <span>nesciunt quod illum</span> quibusdam aperiam omnis voluptatibus
+        eius similique alias nam dicta velit repudiandae iste, quasi obcaecati
+        repellat vel id porro magnam! Explicabo omnis ipsum ab ipsam dicta
+        corrupti. Repellat in eius quo ratione ipsa tenetur blanditiis? id!
+      </p>
+      <a href="/images/früchtuck-Iranisch.jpg" target="_blank"
+        ><img
+          class="second-photo"
+          src="/images/früchtuck-Iranisch.jpg"
+          alt="ein Foto über Iranishes Essen!"
+      /></a>
+
+      <a class="button" href="#">Ich bin ein Button</a>
+      <button class="enterB">Enter</button>
+    </div>
+  </body>
+</html>
