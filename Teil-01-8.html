@@ -74,7 +74,6 @@
         padding: 0; */
         /* display: block; */
         width: 200px;
-        width: 200px;
         border-radius: 10px;
         /* margin-bottom: 10px; */
         margin-right: 20px;
@@ -94,6 +93,17 @@
       .third-photo {
         display: block;
         /* margin: 20px 0; */
+      }
+
+      .fourth-photo {
+        /* WITH THIS, YOU DON'T NEED TO WRAP THE IMAGE INSIDE A DIV, RATHER, YOU HAVE TO WRITE THE FOLLOWING THREE LINES:*/
+        /* display: block; */
+        /* width: 200px; */
+        /* margin: 0 auto; */
+      }
+
+      .last-image {
+        text-align: center; /*with this, we have to wrap the image inside a div!*/
       }
 
       .third-photo,
@@ -289,6 +299,16 @@
       /></a>
       <a class="button" href="#">Ich bin ein Button</a>
       <button class="enterB">Enter</button>
+
+      <!-- last image -->
+      <div class="last-image">
+        <a href="/images/früchtuck-Iranisch.jpg" target="_blank"
+          ><img
+            class="fourth-photo"
+            src="/images/früchtuck-Iranisch.jpg"
+            alt="ein Foto über Iranishes Essen!"
+        /></a>
+      </div>
     </div>
   </body>
 </html>
