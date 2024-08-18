@@ -14,6 +14,10 @@ body {
   background-color: rgb(128, 128, 128);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3rem;
+  background-image: url(/images/früchtuck-Iranisch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100rem 100rem;
+  background-position: center center;
 }
 
 h1 {
