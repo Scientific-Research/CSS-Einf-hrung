@@ -82,6 +82,13 @@ h1 {
     green 50%
   ); */
 
+  /* background-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.9),
+    rgba(255, 133, 170, 0.5),
+    rgba(0, 0, 0, 0)
+  ); */
   /* background-size: 100rem 100rem; */
   /* background-size: 100% 100%; cover the entire container*/
   background-size: cover; /*it shows like the original size => cover the entire container*/
