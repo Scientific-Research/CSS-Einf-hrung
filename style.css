@@ -9,15 +9,14 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-img {
-  color: rgb(80, 80, 80);
+/* It will change the color to the red only and only when it is a direct child! */
+.container > h1 {
+  color: red;
+}
+
+/* It doesn't matter, direct or indirect, when it finds a h1, it will change the color to the red!*/
+.container h1 {
+  color: red;
 }
 
 .container {
