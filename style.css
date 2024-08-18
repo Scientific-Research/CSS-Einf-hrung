@@ -17,7 +17,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3rem;
 
-  background-image: url(/images/früchtuck-Iranisch.jpg);
+  /* The gradient liegt ganz komplete über unseres Bild! */
+  background-image: linear-gradient(90deg, red, white, red),
+    url(/images/früchtuck-Iranisch.jpg);
+
+  background-image: linear-gradient(90deg, red, white, red),
+    url(/images/früchtuck-Iranisch.jpg);
   background-repeat: no-repeat;
   /* background-size: 100rem 100rem; */
   background-size: cover;
