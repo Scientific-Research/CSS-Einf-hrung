@@ -59,13 +59,16 @@ h1 {
     white 100%
   ); */
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5) 0%,
     rgba(0, 0, 0, 0) 5%,
     rgba(0, 0, 0, 0) 95%,
     rgba(0, 0, 0, 0.5) 100%
-  );
+  ); */
+
+  /* a circle in the middle of the page(50% 50%) and start from balck and goes to the white color! */
+  background-image: radial-gradient(circle at 50% 50%, black 25%, blue 25%);
 
   /* background-size: 100rem 100rem; */
   /* background-size: 100% 100%; cover the entire container*/
