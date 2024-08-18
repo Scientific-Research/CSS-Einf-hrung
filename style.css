@@ -21,8 +21,17 @@ body {
   background-image: linear-gradient(90deg, red, white, red),
     url(/images/früchtuck-Iranisch.jpg);
 
-  background-image: linear-gradient(90deg, red, white, red),
+  background-image: linear-gradient(90deg, red, rgba(0, 0, 0, 0), red),
     url(/images/früchtuck-Iranisch.jpg);
+
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/images/früchtuck-Iranisch.jpg);
+
   background-repeat: no-repeat;
   /* background-size: 100rem 100rem; */
   background-size: cover;
