@@ -24,6 +24,8 @@ body {
   /* background-position: 50% 100%; */
   /* background-position: 50% 50%; */
   background-position: center center;
+
+  background-attachment: fixed; /*to fix the background image in body(no movement)*/
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
 
 .container {
   width: 50rem;
-  height: 50rem;
+  /* height: 50rem; */
   margin: 0 auto;
   padding: 2rem;
   text-align: justify;
