@@ -38,3 +38,7 @@ img.photo_1 {
   /* margin-right: 10%;
   margin-left: 10%; */
 }
+
+.navigation .third-item a {
+  color: greenyellow;
+}
