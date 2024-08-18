@@ -68,7 +68,19 @@ h1 {
   ); */
 
   /* a circle in the middle of the page(50% 50%) and start from balck and goes to the white color! */
-  background-image: radial-gradient(circle at 50% 50%, black 25%, blue 25%);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    black 25%,
+    blue 25%,
+    green 50%
+  );
+  /* background-image: radial-gradient(
+    circle at 50% 50%,
+    black 25%,
+    blue 25%,
+    blue 50%,
+    green 50%
+  ); */
 
   /* background-size: 100rem 100rem; */
   /* background-size: 100% 100%; cover the entire container*/
